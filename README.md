@@ -23,7 +23,7 @@ The K-Nearest Neighbors algorithm is a simple yet powerful supervised learning a
  
 - **Implementation from Scratch:** This is demonstrating how the KNN algorithm works under the hood.
 - **Implementation using scikit-learn :** This implementation makes use of the functionality of the sklearn library to come up with a simple and efficient KNN classification.
-- **Code:** You can find the code here.
+- **Code:** You can find the code [here](KNN).
 
 ## Contributing
 Contributions are welcome! If you want to add more algorithms or improve existing implementations, please fork the repository and submit a pull request.
