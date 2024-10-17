@@ -9,7 +9,6 @@ X = wine.data
 y = wine.target
 
 print(X)
-
 print(y)
 
 from sklearn.model_selection import train_test_split
