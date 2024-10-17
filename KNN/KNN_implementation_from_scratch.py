@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn import datasets
 from collections import Counter
+from sklearn.model_selection import train_test_split
 
 iris = datasets.load_iris()
 
@@ -10,12 +11,8 @@ y = iris.target
 
 
 print(X)
-
 print(iris.target_names)    # These are target names in which we have to classify our test data, after training the model.
-
 print(y)
-
-from sklearn.model_selection import train_test_split
 
 # 80% data will be used for training the model and rest 20% of data will used for testing the model's accuracy.
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
