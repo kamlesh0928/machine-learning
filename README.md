@@ -8,6 +8,7 @@ Welcome to this repository! Here you find practical implementations of popular s
 - Introduction
 - Algorithms
   - K-Nearest Neighbors (KNN)
+  - Naive Bayes
 - Contributing
 - License
 
@@ -24,6 +25,17 @@ The K-Nearest Neighbors algorithm is a simple yet powerful supervised learning a
 - **Implementation from Scratch:** This is demonstrating how the KNN algorithm works under the hood.
 - **Implementation using scikit-learn :** This implementation makes use of the functionality of the sklearn library to come up with a simple and efficient KNN classification.
 - **Code:** You can find the code [here](KNN).
+
+### Naive Bayes
+
+Naive Bayes is a probabilistic machine learning algorithm governed by Bayes' Theorem that widely applies on classification tasks. They assume features to be independent given the class label; thus it runs efficiently and fast, especially for big data.
+
+**Types**
+- **Gaussian Naive Bayes:** For Continuous data which is assumed to be normally distributed.
+- **Multinomial Naive Bayes:** Used over the discrete count data, like text.
+- **Bernoulli Naive Bayes:** when we have binary/boolean features.
+
+**Code:** You can find the code [here](Naive%20Bayes).
 
 ## Contributing
 Contributions are welcome! If you want to add more algorithms or improve existing implementations, please fork the repository and submit a pull request.
