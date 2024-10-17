@@ -1,17 +1,15 @@
 import numpy as np
 from sklearn.datasets import load_wine
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import accuracy_score
 
 wine = load_wine()
 
 X = wine.data
 y = wine.target
 
-from sklearn.model_selection import train_test_split
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
-
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import accuracy_score
 
 nb = GaussianNB()
 
