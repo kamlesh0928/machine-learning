@@ -7,9 +7,9 @@ Welcome to this repository! Here you find practical implementations of popular s
 
 - Introduction
 - Algorithms
-  - [K-Nearest Neighbors (KNN)](#K-Nearest%20Neighbors%20(KNN))
-  - [Naive Bayes](#Naive%20Bayes)
-  - [Decision Tree Classifier](#Decision%20Tree%20Classifier)
+  - K-Nearest Neighbors (KNN)
+  - Naive Bayes
+  - Decision Tree Classifier
 - Contributing
 - License
 
