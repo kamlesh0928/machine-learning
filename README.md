@@ -7,8 +7,9 @@ Welcome to this repository! Here you find practical implementations of popular s
 
 - Introduction
 - Algorithms
-  - K-Nearest Neighbors (KNN)
-  - Naive Bayes
+  - [K-Nearest Neighbors (KNN)](K-Nearest%20Neighbors%20(KNN))
+  - [Naive Bayes](Naive%20Bayes)
+  - [Decision Tree Classifier](Decision%20Tree%20Classifier)
 - Contributing
 - License
 
@@ -36,6 +37,21 @@ Naive Bayes is a probabilistic machine learning algorithm governed by Bayes' The
 - **Bernoulli Naive Bayes:** when we have binary/boolean features.
 
 **Code:** You can find the code [here](Naive%20Bayes).
+
+### Decision Tree Classifier
+
+A Decision Tree Classifier is supervised learning algorithm applied toward classification, splitting the data into subsets based on feature values and thus forming a tree structure. The internal node in the tree presents a feature, while a leaf node presents a class. That is to say, here we want to make data as pure as possible at each stage down the tree.
+
+#### Components of a Decision Tree:
+  
+  - **Root Node:** It is the topmost node in the tree, which represents the complete dataset. It is the starting point of the decision-making process.
+  - **Internal Node:** A node that symbolizes a choice regarding an input feature. Branching off of internal nodes connects them to leaf nodes or other internal nodes.
+  - **Parent Node:** The node that divides into one or more child nodes.
+  - **Child Node:** The nodes that emerge when a parent node is split.
+  - **Leaf Node:** A node without any child nodes that indicates a class label or a numerical value.
+  - **Entropy:** Measures impurity or randomness in the dataset. Lower entropy means the data is more pure (belongs to one class).
+  - **Gini Impurity:** An alternative to entropy, it measures the probability of incorrect classification.
+  - **Information Gain:** The reduction in entropy after splitting based on a feature. Higher information gain means the feature is better for the split.
 
 ## Contributing
 Contributions are welcome! If you want to add more algorithms or improve existing implementations, please fork the repository and submit a pull request.
