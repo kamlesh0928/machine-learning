@@ -7,9 +7,9 @@ Welcome to this repository! Here you find practical implementations of popular s
 
 - Introduction
 - Algorithms
-  - [K-Nearest Neighbors (KNN)](K-Nearest%20Neighbors%20(KNN))
-  - [Naive Bayes](Naive%20Bayes)
-  - [Decision Tree Classifier](Decision%20Tree%20Classifier)
+  - [K-Nearest Neighbors (KNN)](#K-Nearest%20Neighbors%20(KNN))
+  - [Naive Bayes](#Naive%20Bayes)
+  - [Decision Tree Classifier](#Decision%20Tree%20Classifier)
 - Contributing
 - License
 
@@ -52,6 +52,8 @@ A Decision Tree Classifier is supervised learning algorithm applied toward class
   - **Entropy:** Measures impurity or randomness in the dataset. Lower entropy means the data is more pure (belongs to one class).
   - **Gini Impurity:** An alternative to entropy, it measures the probability of incorrect classification.
   - **Information Gain:** The reduction in entropy after splitting based on a feature. Higher information gain means the feature is better for the split.
+
+**Code:** You can find the code [here](Decision%20Tree%20Classifier).
 
 ## Contributing
 Contributions are welcome! If you want to add more algorithms or improve existing implementations, please fork the repository and submit a pull request.
