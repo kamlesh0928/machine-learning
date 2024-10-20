@@ -12,7 +12,7 @@ y = dataset['Sales'].values
 
 # Plot the relationship between TV advertising budget and Sales
 
-plt.figure(figsize=(10, 6))     # Scatter plot to visualize the data points
+plt.figure(figsize = (10, 6))     # Scatter plot to visualize the data points
 plt.plot(X, y, 'o')
 plt.xlabel("TV Advertising Budget")
 plt.ylabel("Sales")
@@ -73,12 +73,12 @@ class SimpleLinearRegression:
     def plot(self, X, y, y_pred):
 
         # Scatter plot of the data points (blue) and best fit line (red)
-        plt.figure(figsize=(10, 6))
-        plt.scatter(X, y, color='blue', label='Data points')
-        plt.plot(X, y_pred, color='red', label='Best fit line')
-        plt.xlabel('TV Advertising Budget')
-        plt.ylabel('Sales')
-        plt.title('Simple Linear Regression on Advertising Dataset')
+        plt.figure(figsize = (10, 6))
+        plt.scatter(X, y, color = "blue", label = "Data points")
+        plt.plot(X, y_pred, color = 'red', label = "Best fit line")
+        plt.xlabel("TV Advertising Budget")
+        plt.ylabel("Sales")
+        plt.title("Simple Linear Regression on Advertising Dataset")
         plt.legend()
         plt.show()
 
