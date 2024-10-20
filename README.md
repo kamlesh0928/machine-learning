@@ -86,7 +86,7 @@ Where,
 **For more detailed information on Linear Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Linear_regression).**
 
 ## Contributing
-Contributions are welcome! If you want to add more algorithms or improve existing implementations, please fork the repository and submit a pull request.
+Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License. Please see the LICENSE file for more information.
