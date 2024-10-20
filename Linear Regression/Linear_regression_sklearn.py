@@ -30,12 +30,12 @@ print(f"R-squared on test set: {r2:.2f}")
 
 def plot(X, y, y_pred):
 
-    plt.figure(figsize=(10, 6))
-    plt.scatter(X, y, color='blue', label='Data points')
-    plt.plot(X, y_pred, color='red', label='Best fit line')
-    plt.xlabel('TV Advertising Budget')
-    plt.ylabel('Sales')
-    plt.title('Simple Linear Regression on Advertising Dataset')
+    plt.figure(figsize = (10, 6))
+    plt.scatter(X, y, color = "blue", label = "Data points")
+    plt.plot(X, y_pred, color = 'red', label = "Best fit line")
+    plt.xlabel("TV Advertising Budget")
+    plt.ylabel("Sales")
+    plt.title("Simple Linear Regression on Advertising Dataset")
     plt.legend()
     plt.show()
 
