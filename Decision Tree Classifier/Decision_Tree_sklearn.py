@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn import tree
 
 # This dataset is provided in this repository.
+# Update the path below to your local path where the dataset is located
 dataset = pd.read_csv("/content/drive/MyDrive/bill_authentication.csv")
 
 X = dataset.iloc[:,:-1].values
