@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # The dataset is provided in this repository 
+# Update the path below to your local path where the dataset is located
 dataset = pd.read_csv("/content/drive/MyDrive/Advertising_dataset.csv")
 
 X = dataset['TV'].values
