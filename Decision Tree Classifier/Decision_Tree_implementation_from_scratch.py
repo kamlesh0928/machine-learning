@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 
 # Load dataset
 # This dataset is provided in this repository.
+# Update the path below to your local path where the dataset is located
 dataset = pd.read_csv("/content/drive/MyDrive/bill_authentication.csv")
 
 # Display the first few rows of the dataset
