@@ -11,6 +11,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - Naive Bayes
   - Decision Tree Classifier
   - Linear Regression
+  - Multiple Regression
 - Contributing
 - License
 
@@ -85,6 +86,26 @@ Where,
 **Code:** You can find the code [here](Linear%20Regression).
 
 **For more detailed information on Linear Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Linear_regression).**
+
+<br>
+
+### Multiple Regression
+
+Multiple Regression is a statistical technique in the analysis of understanding one dependent variable and two or more independent variables. Multiple regression is an extension of simple linear regression, where it views the impact of one predictor variable. If it has multiple predictors, multiple regressions help understand the various ways the factors contribute to the outcome as well as the strength with which they have relationships with it.
+
+**Equation of Linear Regression:** Y = β0 + β1*X1 + β2*X2 + ... + βn*Xn + ϵ
+
+Where,
+
+- Y is the dependent variable
+- X1, X2, ..., Xn are the independent variable
+- β0 is the intercept
+- β1, β2, ..., βn are the coefficients for X1, X2, ..., Xn
+- ϵ is the error term
+
+**Code:** You can find the code [here](Multiple%20Regression).
+
+**For more detailed information on Multiple Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Linear_regression).**
 
 ## Contributing
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
