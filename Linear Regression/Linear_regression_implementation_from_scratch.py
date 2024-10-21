@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 
 # Load the dataset
 # The dataset is provided in this repository
+# Update the path below to your local path where the dataset is located
 dataset = pd.read_csv("/content/drive/MyDrive/Advertising_dataset.csv")
 
 X = dataset['TV'].values
