@@ -72,7 +72,7 @@ A Decision Tree Classifier is supervised learning algorithm applied toward class
 
 Linear Regression is one of the simplest and most widely used machine learning techniques for modeling relationships between a dependent variable and one independent variable feature. This technique primarily aims to find the linear relationship of the variable and therefore to predict how changes in the independent variable affect the dependent variable.
 
-**Equation of Linear Regression:** y = β0 + β1*x
+**Equation of Linear Regression:** y = β0 + β1*x + ϵ
 
 Where,
 
@@ -80,6 +80,7 @@ Where,
 - x is the independent variable
 - β0 is the intercept
 - β1 is the slope
+- ϵ is the error term
 
 **Code:** You can find the code [here](Linear%20Regression).
 
