@@ -12,6 +12,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - Decision Tree Classifier
   - Linear Regression
   - Multiple Regression
+  - Polynomial Regression
 - Contributing
 - License
 
@@ -106,6 +107,25 @@ Where,
 **Code:** You can find the code [here](Multiple%20Regression).
 
 **For more detailed information on Multiple Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Linear_regression).**
+
+<br>
+
+### Polynomial Regression
+
+Polynomial regression is a form of regression analysis, where the relationship between the dependent and one or more independent variables is modeled by fitting the data to a polynomial equation. Unlike linear regressions, where the best fit line is a straight line, polynomial regressions could capture curved relationships.
+
+**Equation of Polynommial regression:** Y = a<sub>0</sub> + a<sub>1</sub> * x + a<sub>2</sub> * x<sup>2</sup> + ... + a<sub>n</sub> * x<sup>n</sup>
+
+Where,
+
+- Y is dependent variable
+- x is independent variable
+- a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> are coefficients of x, x<sup>2</sup> + ... + a<sub>n</sub> * x<sup>n</sup> respectively
+- n is the degree of the polynomial
+
+**Code:** You can find the code [here](Polynomial%20Regression).
+
+**For more detailed information on Multiple Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Polynomial_regression).**
 
 ## Contributing
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
