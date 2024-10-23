@@ -13,6 +13,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - Linear Regression
   - Multiple Regression
   - Polynomial Regression
+  - Logistic Regression
 - Contributing
 - License
 
@@ -125,7 +126,19 @@ Where,
 
 **Code:** You can find the code [here](Polynomial%20Regression).
 
-**For more detailed information on Multiple Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Polynomial_regression).**
+**For more detailed information on Polynomial Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Polynomial_regression).**
+
+<br>
+
+### Logistic Regression
+
+Logistic regression is used for a binary classification where we use a sigmoid function that takes the input as independent variables and gives a probability value between 0 and 1.
+
+For example, we have two classes Class 0 and Class 1 if the value of logistic function for an input is greater than 0.5 (threshold value) then it belongs to Class 1 otherwise it belongs to Class 0. It's referred to as regression because it is an extension of linear regression but is mainly used for classification problems.
+
+**Code:** You can find the code [here](Logistic%20Regression).
+
+**For more detailed information on Logistic Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Logistic_regression).**
 
 ## Contributing
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
