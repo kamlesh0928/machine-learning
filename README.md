@@ -14,6 +14,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - Multiple Regression
   - Polynomial Regression
   - Logistic Regression
+  - K - Means Clustering
 - Contributing
 - License
 
@@ -139,6 +140,16 @@ For example, we have two classes Class 0 and Class 1 if the value of logistic fu
 **Code:** You can find the code [here](Logistic%20Regression).
 
 **For more detailed information on Logistic Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Logistic_regression).**
+
+<br>
+
+### K - Means Clustering
+
+An unsupervised learning technique of machine learning called K-Means clustering groups similar data points based on feature similarity. In short, K-Means partitions a dataset into K groups based on their feature similarity. Each cluster has a centroid, which is just the average of points in it. K-Means is efficient and simple in its execution so is best suited for big datasets, though it suffers from weaknesses; notably sensitivity to the choice of initial centroids and the clusters have to be round and almost the same sizes. It's hard to determine what the ideal number of clusters, K, is; one usually applies the Elbow Method or Silhouette Score technique, among others.
+
+**Code:** You can find the code [here](K%20-%20Means%20Clustering).
+
+**For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clustering).**
 
 ## Contributing
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
