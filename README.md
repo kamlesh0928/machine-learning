@@ -7,14 +7,14 @@ Welcome to this repository! Here you find practical implementations of popular s
 
 - Introduction
 - Algorithms
-  - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-(knn))
+  - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
   - [Naive Bayes](#naive-bayes)
-  - Decision Tree Classifier
-  - Linear Regression
-  - Multiple Regression
-  - Polynomial Regression
-  - Logistic Regression
-  - K - Means Clustering
+  - [Decision Tree Classifier](#decision-tree-classifier)
+  - [Linear Regression](#linear-regression)
+  - [Multiple Regression](#multiple-regression)
+  - [Polynomial Regression](#polynomial-regression)
+  - [Logistic Regression](#logistic-regression)
+  - [K - Means Clustering](#k---means-clustering)
 - Contributing
 - License
 
