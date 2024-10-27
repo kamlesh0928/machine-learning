@@ -7,8 +7,8 @@ Welcome to this repository! Here you find practical implementations of popular s
 
 - Introduction
 - Algorithms
-  - [K-Nearest Neighbors (KNN)](#K-Nearest-Neighbors-(KNN))
-  - Naive Bayes
+  - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-(knn))
+  - [Naive Bayes](#naive-bayes)
   - Decision Tree Classifier
   - Linear Regression
   - Multiple Regression
