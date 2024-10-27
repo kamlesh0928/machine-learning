@@ -5,6 +5,7 @@ import plotly.express as px
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
+# This dataset is provided in this repository.
 # Update the path below to your local path where the dataset is located
 dataset = pd.read_csv("/content/drive/MyDrive/Digit Recognizer Dataset/train.csv")
 
