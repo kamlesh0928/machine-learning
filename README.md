@@ -15,8 +15,9 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Polynomial Regression](#polynomial-regression)
   - [Logistic Regression](#logistic-regression)
   - [K - Means Clustering](#k---means-clustering)
-- Contributing
-- License
+  - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+- [Contributions](#contributions)
+- [License](#license)
 
 ## Introduction
 
@@ -151,7 +152,17 @@ An unsupervised learning technique of machine learning called K-Means clustering
 
 **For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clustering).**
 
-## Contributing
+<br>
+
+### Principal Component Analysis (PCA)
+
+Principal Component Analysis (PCA) is a dimensionality reduction technique commonly used to simplify large datasets while preserving as much variance as possible. It works by transforming the original features into a new set of uncorrelated variables called principal components, which are ordered by the amount of variance they capture from the data. The first few principal components typically capture the majority of the variance, allowing for data visualization, noise reduction, and faster computation in machine learning tasks. PCA is especially useful in high-dimensional datasets where interpreting and processing data can be challenging.
+
+**Code:** You can find the code [here](PCA).
+
+**For more detailed information on PCA see the [Wikipedia article](https://en.wikipedia.org/wiki/Principal_component_analysis).**
+
+## Contributions
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
 
 ## License
