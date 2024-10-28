@@ -16,6 +16,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Logistic Regression](#logistic-regression)
   - [K - Means Clustering](#k---means-clustering)
   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+  - [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda)
 - [Contributions](#contributions)
 - [License](#license)
 
@@ -161,6 +162,16 @@ Principal Component Analysis (PCA) is a dimensionality reduction technique commo
 **Code:** You can find the code [here](PCA).
 
 **For more detailed information on PCA see the [Wikipedia article](https://en.wikipedia.org/wiki/Principal_component_analysis).**
+
+<br>
+
+### Linear Discriminant Analysis (LDA)
+
+Linear Discriminant Analysis (LDA) is a supervised machine learning classification and dimensionality reduction method. It seeks a linear combination of features that maximize class separation by maximizing distances between class means and minimizing class variances. LDA assumes that data are normally distributed with a common covariance, so it is optimal for certain conditions. These include applications in pattern recognition, medical diagnosis, finance, where predictive accuracy will be enhanced, and lower dimensions help to visualize complex data.
+
+**Code:** You can find the code [here](LDA).
+
+**For more detailed information on LDA see the [Wikipedia article](https://en.wikipedia.org/wiki/Linear_discriminant_analysis).**
 
 ## Contributions
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
