@@ -15,6 +15,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Polynomial Regression](#polynomial-regression)
   - [Logistic Regression](#logistic-regression)
   - [K - Means Clustering](#k---means-clustering)
+  - [DBSCAN Clustering](#dbscan-clustering)
   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
   - [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda)
 - [Contributions](#contributions)
@@ -152,6 +153,25 @@ An unsupervised learning technique of machine learning called K-Means clustering
 **Code:** You can find the code [here](K%20-%20Means%20Clustering).
 
 **For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clustering).**
+
+<br>
+
+### DBSCAN Clustering
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a density-based clustering algorithm. The group of points is based on their densities. It will highlight the groups of densely packed points and mark the points as noise when it has very low density.
+
+**Parameters:**
+-   **Epsilon (ε):** Maximum distance to consider points as neighbors.
+-   **MinPts:** Number of minimum points needed for the cluster.
+
+**Types of Points:**
+-   **Core point:** This is a point that has at least MinPts points within distance n from itself.
+-   **Border point:** This is a point that has at least one Core point at a distance n.
+-   **Noise point:** This is a point that is neither a Core nor a Border. And it has less than m points within distance n from itself.
+
+**Code:** You can find the code [here](DBSCAN%20Clustering).
+
+**For more detailed information on DBSCAN Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/DBSCAN).**
 
 <br>
 
