@@ -83,20 +83,3 @@ r2 = model.r2_score(y_test, y_pred)
 
 print(f"Mean Squared Error: {mse}")
 print(f"R2 score: {r2}")
-
-# Function to plot actual vs predicted values
-def plot_predictions(y_test, y_pred):
-
-    plt.figure(figsize=(10, 6))
-
-    # Scatter plot of actual vs predicted values
-    plt.scatter(range(len(y_test)), y_test, color = "blue", label = "Actual Point")
-    plt.scatter(range(len(y_pred)), y_pred, color = "red", label = "Predicted Point")
-
-    plt.title("Actual vs Predicted Medical Costs")
-    plt.xlabel("Test Data Points")
-    plt.ylabel("Medical Costs")
-    plt.legend()
-    plt.show()
-
-plot_predictions(y_test, y_pred)
