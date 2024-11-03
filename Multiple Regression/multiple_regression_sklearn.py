@@ -33,18 +33,3 @@ print(f"Coefficients: {model.coef_}")
 
 print("Mean Squared Error: ", mean_squared_error(y_test, y_pred))
 print("R2 score: ", r2_score(y_test, y_pred))
-
-def plot_predictions(y_test, y_pred):
-
-    plt.figure(figsize=(10, 6))
-
-    plt.scatter(range(len(y_test)), y_test, color = "blue", label = "Actual Point")
-    plt.scatter(range(len(y_pred)), y_pred, color = "red", label = "Predicted Point")
-
-    plt.title("Actual vs Predicted Medical Costs")
-    plt.xlabel("Test Data Points")
-    plt.ylabel("Medical Costs")
-    plt.legend()
-    plt.show()
-
-plot_predictions(y_test, y_pred)
