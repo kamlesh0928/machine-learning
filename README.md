@@ -15,6 +15,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Polynomial Regression](#polynomial-regression)
   - [Logistic Regression](#logistic-regression)
   - [K - Means Clustering](#k---means-clustering)
+  - [Hierarchical Clustering](#hierarchical-clustering)
   - [DBSCAN Clustering](#dbscan-clustering)
   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
   - [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda)
@@ -153,6 +154,16 @@ An unsupervised learning technique of machine learning called K-Means clustering
 **Code:** You can find the code [here](K%20-%20Means%20Clustering).
 
 **For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clustering).**
+
+<br>
+
+### Hierarchical Clustering
+
+Hierarchical clustering uses two approaches to create a hierarchy of clusters, Agglomerative, or by merging the clusters, and Divisive, or by splitting the clusters. Agglomerative starts with single points, whereas divisive starts with one big cluster. Dendrogram can be produced so that one can find how many clusters are the optimal. This is frequently applied in fields such as biology and marketing. In this repository, I have implemented agglomerative hierarchical clustering.
+
+**Code:** You can find the code [here](Hierarchical%20Clustering).
+
+**For more detailed information on Hierarchical Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/Hierarchical_clustering).**
 
 <br>
 
