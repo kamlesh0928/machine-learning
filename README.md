@@ -14,6 +14,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Multiple Regression](#multiple-regression)
   - [Polynomial Regression](#polynomial-regression)
   - [Logistic Regression](#logistic-regression)
+  - [Support Vector Machine (SVM)](#support-vector-machine-svm)
   - [K - Means Clustering](#k---means-clustering)
   - [Hierarchical Clustering](#hierarchical-clustering)
   - [DBSCAN Clustering](#dbscan-clustering)
@@ -144,6 +145,16 @@ For example, we have two classes Class 0 and Class 1 if the value of logistic fu
 **Code:** You can find the code [here](Logistic%20Regression).
 
 **For more detailed information on Logistic Regression see the [Wikipedia article](https://en.wikipedia.org/wiki/Logistic_regression).**
+
+<br>
+
+### Support Vector Machine (SVM)
+
+Support Vector Machine (SVM) is a supervised algorithm that can be used both for classification and regression. Even though it can apply to regression problems, SVM is particularly best for the application in classification. Mainly, the SVM algorithm identifies the most appropriately separable data points by the optimal hyperplane in the N-dimensional space over the feature space. The algorithmic concept ensures the maximization of difference between closest points of any two classes, also called support vectors.
+
+**Code:** You can find the code [here](Support%20Vector%20Machine).
+
+**For more detailed information on Support Vector Machine see the [Wikipedia article](https://en.wikipedia.org/wiki/Support_vector_machine).**
 
 <br>
 
