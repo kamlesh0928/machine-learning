@@ -173,6 +173,12 @@ An unsupervised learning technique of machine learning called K-Means clustering
 
 The K-Medoids algorithm is a clustering technique that is similar to K-Means but with a key difference: instead of using the mean of points in a cluster as the center (centroid), it uses an actual data point as the center, known as a medoid. The medoid is the point that minimizes the total distance to all other points in the same cluster.
 
+**Note:** The K - Medoids algorithm is provided by the ```sklearn_extra``` library, which is an extension of ```scikit-learn```. To run this code, you'll need to install it first. You can install by running the following command. 
+
+```
+pip install scikit-learn-extra
+```
+
 **Code:** You can find the code [here](K%20-%20Medoids).
 
 **For more detailed information on K - Medoids see the [Wikipedia article](https://en.wikipedia.org/wiki/K-medoids).**
