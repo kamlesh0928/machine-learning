@@ -16,6 +16,7 @@ Welcome to this repository! Here you find practical implementations of popular s
   - [Logistic Regression](#logistic-regression)
   - [Support Vector Machine (SVM)](#support-vector-machine-svm)
   - [K - Means Clustering](#k---means-clustering)
+  - [K - Medoids](#k---medoids)
   - [Hierarchical Clustering](#hierarchical-clustering)
   - [DBSCAN Clustering](#dbscan-clustering)
   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
@@ -164,7 +165,17 @@ An unsupervised learning technique of machine learning called K-Means clustering
 
 **Code:** You can find the code [here](K%20-%20Means%20Clustering).
 
-**For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clustering).**
+**For more detailed information on K - Means Clustering see the [Wikipedia article](https://en.wikipedia.org/wiki/K-means_clusterin).**
+
+<br>
+
+### K - Medoids
+
+The K-Medoids algorithm is a clustering technique that is similar to K-Means but with a key difference: instead of using the mean of points in a cluster as the center (centroid), it uses an actual data point as the center, known as a medoid. The medoid is the point that minimizes the total distance to all other points in the same cluster.
+
+**Code:** You can find the code [here](K%20-%20Medoids).
+
+**For more detailed information on K - Medoids see the [Wikipedia article](https://en.wikipedia.org/wiki/K-medoids).**
 
 <br>
 
