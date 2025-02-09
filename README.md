@@ -236,4 +236,4 @@ Linear Discriminant Analysis (LDA) is a supervised machine learning classificati
 Contributions are welcome! If you want to improve existing implementations, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License. Please see the LICENSE file for more information.
+This project is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more information.
